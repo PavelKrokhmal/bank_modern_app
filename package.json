@@ -4,7 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
+    "dev-docker-up": "docker-compose -f docker-compose.dev.yml up -d",
+    "dev-docker-build": "docker-compose -f docker-compose.dev.yml build",
+    "dev-docker-down": "docker-compose -f docker-compose.dev.yml down",
+    "dev-docker-exec": "docker exec -it app-dev sh",
     "build": "vite build",
     "preview": "vite preview"
   },
