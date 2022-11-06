@@ -44,3 +44,9 @@ Installation:
 
 Development mode
 > npm run dev-docker
+
+- Tailwindcss
+
+> npm install -D tailwindcss postcss autoprefixer
+> npx tailwindcss init -p
+
