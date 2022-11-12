@@ -45,9 +45,11 @@ Installation:
 
 1. __Development mode__
 
-> npm run dev-docker-up
-> npm run dev-docker-down
-> npm run dev-docker-exec
+```
+npm run dev-docker-up
+npm run dev-docker-down
+npm run dev-docker-exec
+```
 
 2. __Production mode (nginx)__
 
