@@ -1,8 +1,8 @@
-Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind
+# Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind
 
-(By JavaScript Mastery)
+Tutorial by JavaScript Mastery [YouTube](https://youtu.be/_oO4Qi5aVZs).
 
-https://youtu.be/_oO4Qi5aVZs
+![Preview](preview.png)
 
 Used stack:
 - Vite (https://vitejs.dev/)
