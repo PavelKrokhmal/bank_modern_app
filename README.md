@@ -22,7 +22,8 @@ Run docker as non-root user:
 > sudo reboot
 
 Check user's groups by: 
-`id -ng`
+
+> id -ng
 > groups 
 
 2. Docker Compose (v2.12.2)
@@ -33,6 +34,16 @@ Installation:
 > sudo chmod +x /usr/local/bin/docker-compose
 > docker-compose --version
 
-Development mode
+3. Running
+
+1. Development mode
+
 > npm run dev-docker-up
+> npm run dev-docker-down
+> npm run dev-docker-exec
+
+2. Production mode (nginx)
+
+> npm run prod-docker-up
+> npm run prod-docker-build
 
