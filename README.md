@@ -4,37 +4,28 @@ Tutorial by JavaScript Mastery [YouTube](https://youtu.be/_oO4Qi5aVZs).
 
 ![Preview](preview.png)
 
-Used stack:
+## Used stack:
 - Vite (https://vitejs.dev/)
+- TailwindCSS
+- React
+- Docker + Docker Compose
 
-Environment:
+## Installation from scratch:
 
-- Ubuntu 20.04.5 LTS
-- NodeJs v19.0.1, npm 8.19.2
+1. Docker (V20.10.21)
 
-Installation:
+Installation (https://docs.docker.com/engine/install/ubuntu/):
 
-Source: https://github.com/nodesource/distributions/blob/master/README.md
-
-> curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
-sudo apt-get install -y nodejs
-
-- Docker (V20.10.21)
-
-Installation:
-
-Source: https://docs.docker.com/engine/install/ubuntu/
-
-Run docker as non-root user
+Run docker as non-root user:
 
 > sudo usermod -aG docker ${USER}
-> suso reboot
+> sudo reboot
 
-Check groups by: 
-> id -ng
+Check user's groups by: 
+`id -ng`
 > groups 
 
-- Docker Compose (v2.12.2)
+2. Docker Compose (v2.12.2)
 
 Installation:
 
@@ -43,10 +34,5 @@ Installation:
 > docker-compose --version
 
 Development mode
-> npm run dev-docker
-
-- Tailwindcss
-
-> npm install -D tailwindcss postcss autoprefixer
-> npx tailwindcss init -p
+> npm run dev-docker-up
 
