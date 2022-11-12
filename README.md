@@ -23,21 +23,27 @@ Installation (https://docs.docker.com/engine/install/ubuntu/):
 
 Run docker as non-root user:
 
-> sudo usermod -aG docker ${USER}
-> sudo reboot
+```
+sudo usermod -aG docker ${USER}
+sudo reboot
+```
 
 Check user's groups by: 
 
-> id -ng
-> groups 
+```
+id -ng
+groups
+```
 
 2. __Docker Compose (v2.12.2)__
 
 Installation:
 
-> sudo curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-> sudo chmod +x /usr/local/bin/docker-compose
-> docker-compose --version
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+```
 
 ---
 
@@ -53,6 +59,7 @@ npm run dev-docker-exec
 
 2. __Production mode (nginx)__
 
-> npm run prod-docker-up
-> npm run prod-docker-build
-
+```
+npm run prod-docker-up
+npm run prod-docker-build
+```
