@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite --host",
     "dev-docker-up": "docker-compose -f docker-compose.dev.yml up -d",
-    "dev-docker-build": "docker-compose -f docker-compose.dev.yml build",
     "dev-docker-down": "docker-compose -f docker-compose.dev.yml down",
     "dev-docker-exec": "docker exec -it app-dev sh",
+    "prod-docker-up": "docker-compose -f docker-compose.prod.yml up -d",
+    "prod-docker-build": "docker-compose -f docker-compose.prod.yml build",
     "build": "vite build",
     "preview": "vite preview"
   },
