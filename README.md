@@ -4,11 +4,15 @@ Tutorial by JavaScript Mastery [YouTube](https://youtu.be/_oO4Qi5aVZs).
 
 ![Preview](preview.png)
 
+---
+
 ## Used stack:
 - Vite (https://vitejs.dev/)
 - TailwindCSS
 - React
 - Docker + Docker Compose
+
+---
 
 ## Installation from scratch:
 
@@ -34,7 +38,9 @@ Installation:
 > sudo chmod +x /usr/local/bin/docker-compose
 > docker-compose --version
 
-3. Running
+---
+
+## Running
 
 1. Development mode
 
