@@ -7,6 +7,7 @@ Tutorial by JavaScript Mastery [YouTube](https://youtu.be/_oO4Qi5aVZs).
 ---
 
 ## Used stack:
+
 - Vite (https://vitejs.dev/)
 - TailwindCSS
 - React
@@ -16,7 +17,7 @@ Tutorial by JavaScript Mastery [YouTube](https://youtu.be/_oO4Qi5aVZs).
 
 ## Installation from scratch:
 
-1. Docker (V20.10.21)
+1. __Docker (V20.10.21)__
 
 Installation (https://docs.docker.com/engine/install/ubuntu/):
 
@@ -30,7 +31,7 @@ Check user's groups by:
 > id -ng
 > groups 
 
-2. Docker Compose (v2.12.2)
+2. __Docker Compose (v2.12.2)__
 
 Installation:
 
@@ -42,13 +43,13 @@ Installation:
 
 ## Running
 
-1. Development mode
+1. __Development mode__
 
 > npm run dev-docker-up
 > npm run dev-docker-down
 > npm run dev-docker-exec
 
-2. Production mode (nginx)
+2. __Production mode (nginx)__
 
 > npm run prod-docker-up
 > npm run prod-docker-build
